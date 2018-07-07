@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	}
+
+
+body {
+	display:grid;
+	grid-template-columns: 100px 100px 200px 100px 100px;
+	grid-template-rows: 100px 100px  100px; 
+	grid-gap: 20px;
+	grid-template-areas: "a b b c c"
+					     "d b b e e"
+					     "f g h i j "
+
+}	
+
+.uno {
+	grid-area: a;
+	background:cornsilk;
+	padding: 20px;
+
+}
+
+.dos {
+	grid-area: b;
+	background: linen;
+	padding: 20px;
+	align-items: center;
+}
+
+.tres {
+	grid-area: c;
+	background:lightblue;
+	padding: 20px;
+}
+
+.cuatro {
+	grid-area: d;
+	background:grey;
+	padding: 20px;
+}
+
+.cinco{
+	grid-area: e;
+	background:slateblue;
+	padding: 20px;
+}
+
+.seis {
+	grid-area: f;
+	background:cornsilk;
+	padding: 20px;
+
+}
+
+.siete {
+	grid-area: g;
+	background:lavender;
+	padding: 20px;
+	align-items: center;
+}
+
+.ocho {
+	grid-area: h;
+	background: oldlace;
+	padding: 20px;
+}
+
+.nueve {
+	grid-area: i;
+	background:seaShell;
+	padding: 20px;
+}
+
+.diez{
+	grid-area:j;
+	background:slateblue;
+	padding: 20px;
+}
